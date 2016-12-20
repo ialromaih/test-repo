@@ -1,6 +1,6 @@
 #GIT COMMANDS:
-*`git config --global user.name ialromaih`
-*`git config --global user.email ialromaih@gmail.com`
+* `git config --global user.name ialromaih`
+* `git config --global user.email ialromaih@gmail.com`
 #create a repository
 *https://github.com/new
 *`mkdir ~/test-repo`
