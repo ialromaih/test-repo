@@ -8,6 +8,7 @@
 * `cd ~/test-repo`
 * `git init`
 * `git remote add origin https://github.com/ialromaih/test-repo.git`
+* to verify url `git remote -v`
 
 ##To fork:
 * fork from the website* `git clone https://github.com/ialromaih/test-repo`
