@@ -7,6 +7,7 @@ head(rownames(a),3)
 ### To install a package
    * `install.packages("slidify")`
    * `install.packages(c("slidify", "ggplot2", "devtools"))`
+   - `install.packages("devtools")`
   
 ### To load a package
    * `library(ggplot2)` without quotes
