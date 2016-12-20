@@ -1,12 +1,13 @@
 #GIT COMMANDS:
 * `git config --global user.name ialromaih`
 * `git config --global user.email ialromaih@gmail.com`
-# create a repository
+#Create a repository
 * https://github.com/new
 * `mkdir ~/test-repo`
 * `cd ~/test-repo`
 * `git init`
-* `git remote add origin https://github.com/ialromaih/test-repo.git`#To fork:
+* `git remote add origin https://github.com/ialromaih/test-repo.git`
+#To fork:
 * fork from the website* `git clone https://github.com/ialromaih/test-repo`#Create a file
 * `add (-u)`: index the file to be monitored
 * `commit`: commit the indexed file to your local repo
@@ -18,7 +19,7 @@
 * `checkout`: revert changes for indexed file
 * `diff HEAD`: compare local repo with workplace
 * `diff`: compared indexed and workplace
-# Add these files to be indexed (tracked for changes)
+#Add these files to be indexed (tracked for changes)
 * `git add .`: adds all files.
 * `git add -u`: updates tracking for all files that changed name or were deleted.
 * `git add -A`: does both the previous.#Commit these changes
