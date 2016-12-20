@@ -1,7 +1,7 @@
 #GIT COMMANDS:
 * `git config --global user.name ialromaih`
 * `git config --global user.email ialromaih@gmail.com`
-#Create a repository
+#Create_a_repository
 * https://github.com/new
 * `mkdir ~/test-repo`
 * `cd ~/test-repo`
