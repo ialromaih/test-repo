@@ -1,5 +1,5 @@
 ###To search for a package
-* ```
+  ```
   a <- available.packages()
   head(rownames(a),3)
   ```
@@ -12,7 +12,7 @@
 *  `library(ggplot2)` without quotes
 *  `library(ggplot2)` without quotes
 ### To use a package
-```
-library(ggplot2)
-search()
-```
+  ```
+  library(ggplot2)
+  search()
+  ```
