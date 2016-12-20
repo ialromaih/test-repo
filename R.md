@@ -5,6 +5,6 @@ head(rownames(a),3)
 ```
 
 ### To install a package
-```
+'install.packages("slidify")'
 
-```
+###
