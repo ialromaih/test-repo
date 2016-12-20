@@ -10,7 +10,9 @@
 * `git remote add origin https://github.com/ialromaih/test-repo.git`
 
 ##To fork:
-* fork from the website* `git clone https://github.com/ialromaih/test-repo`#Create a file
+* fork from the website* `git clone https://github.com/ialromaih/test-repo`
+
+##Create a file
 * `add (-u)`: index the file to be monitored
 * `commit`: commit the indexed file to your local repo
 * `commit -a`: commit a file to local repo without indexing
