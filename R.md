@@ -10,7 +10,7 @@
   
 ### To load a package
 *  `library(ggplot2)` without quotes
-*  `library(ggplot2)` without quotes
+
 ### To use a package
   ```
   library(ggplot2)
