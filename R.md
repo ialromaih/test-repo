@@ -12,7 +12,7 @@ head(rownames(a),3)
  * `library(ggplot2)` without quotes
  
 ### To use a package
- * ```
+ ```
 library(ggplot2)
 search()
 ```
