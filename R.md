@@ -6,7 +6,7 @@ head(rownames(a),3)
 
 ### To install a package
   `install.packages("slidify")`
-OR
+  OR
   `install.packages(c("slidify", "ggplot2", "devtools"))`
   
 ###
