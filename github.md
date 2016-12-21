@@ -29,10 +29,16 @@
 * `git add .`: adds all files.
 * `git add -u`: updates tracking for all files that changed name or were deleted.
 * `git add -A`: does both the previous.
+
 ## Commit these changes
 * `git commit -m "message"`
+
 ## Push changes to github:
 * `git push origin master`
+
+## To sync
+* `git pull --rebase origin master`
+
 ## Create a branch to make changes without affecting others:
 * `git checkout -b branchname` creates a branch
 * `git branch` to see what branch you are on
