@@ -20,3 +20,7 @@
 ### Find working directory
 * `getwd()`
 * `dir()` shows the contect of the current working directory
+
+### Read Data
+* `read.csv("mydata.csv")`
+
