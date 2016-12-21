@@ -25,4 +25,5 @@
 * `read.csv("mydata.csv")`
 
 ### Load Functions
+* `ls()` lists functions
 * `source("mycode.R")`
