@@ -18,4 +18,5 @@
   ```
   
 ### Find working directory
-*  `getwd()`
+* `getwd()`
+* `dir()` shows the contect of the current working directory
