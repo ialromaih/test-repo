@@ -16,3 +16,6 @@
   library(ggplot2)
   search()
   ```
+  
+### Find working directory
+*  `getwd()`
