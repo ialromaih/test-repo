@@ -54,6 +54,7 @@
 
 ## Reading Data
 * `read.table()` and `read.csv()` reads from tables
+    
     ```
     inital <- read.table("datatable.txt", nrows = 100)
     classes <- sapply(initial, class)
