@@ -1,34 +1,34 @@
-###To search for a package
+## To search for a package
   ```
   a <- available.packages()
   head(rownames(a),3)
   ```
 
-### To install a package
+## To install a package
 *  `install.packages("devtools")`
 *  `install.packages(c("slidify", "ggplot2", "devtools"))`
   
-### To load a package
+## To load a package
 *  `library(ggplot2)` without quotes
 
-### To use a package
+## To use a package
   ```
   library(ggplot2)
   search()
   ```
   
-### Find working directory
+## Find working directory
 * `getwd()`
 * `dir()` shows the contect of the current working directory
 
-### Read Data
+## Read Data
 * `read.csv("mydata.csv")`
 
-### Load Functions
+## Load Functions
 * `ls()` lists functions
 * `source("mycode.R")`
 
-### Functions
+## Functions
 * `x` prints the value of x
 * `print(x)` also prints the value of x
 * `x <- 1` assigns the value 1 to variable x
@@ -52,15 +52,21 @@
 * `x <- list(a = 1, b = 2, c = 3)` creates a list with column names
 * `dimnames(m) <- list(c("a","b"), c("c","d"))` creates a label for each column and row (row1 = a, row2 = b, column1 =c, column2 =d)
 
-### Reading Data
+## Reading Data
 * `read.table()` and `read.csv()` reads from tables
+    ```
+    inital <- read.table("datatable.txt", nrows = 100)
+    classes <- sapply(initial, class)
+    tabAll <- read.table("datatable.txt",
+                          colClasses = classes)
+    ```
 * `readLines()` reads from text files
 * `source()` reads R code files (inverse is `dump()`)
 * `dget()` reads R code files (inverse is `dput()`)
 * `load()` reads saved workspaces
 * `unserialize()` reads single R objects in binary format
 
-### Reading Data
+## Writing Data
 * `write.table()` and `read.csv()` writes to tables
 * `writeLines()` writes to text files
 * `dump()` writes to R code files (inverse is `dump()`)
