@@ -55,12 +55,12 @@
 ## Reading Data
 * `read.table()` and `read.csv()` reads from tables
     
-    ```
-    inital <- read.table("datatable.txt", nrows = 100)
-    classes <- sapply(initial, class)
-    tabAll <- read.table("datatable.txt",
-                          colClasses = classes)
-    ```
+      ```
+      inital <- read.table("datatable.txt", nrows = 100)
+      classes <- sapply(initial, class)
+      tabAll <- read.table("datatable.txt",
+                            colClasses = classes)
+      ```
 * `readLines()` reads from text files
 * `source()` reads R code files (inverse is `dump()`)
 * `dget()` reads R code files (inverse is `dput()`)
