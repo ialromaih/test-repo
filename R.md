@@ -63,7 +63,7 @@
       ```
 * `readLines()` reads from text files
 * `source()` reads R code files (inverse is `dump()`)
-* `dget()` reads R code files (inverse is `dput()`)
+* `dget("y.R")` reads R code files (inverse is `dput()`)
 * `load()` reads saved workspaces
 * `unserialize()` reads single R objects in binary format
 
@@ -71,6 +71,6 @@
 * `write.table()` and `read.csv()` writes to tables
 * `writeLines()` writes to text files
 * `dump()` writes to R code files (inverse is `dump()`)
-* `dput()` writes to  R code files (inverse is `dput()`)
+* `dput(y, file = "y.R")` writes to  R code files (inverse is `dput()`)
 * `save()` writes workspaces
 * `serialize()` writes single R objects in binary format
