@@ -61,7 +61,7 @@
       tabAll <- read.table("datatable.txt",
                             colClasses = classes)
       ```
-* `readLines()` reads from text files
+* `readLines(con, 10)` reads from text files
 * `source("data.R")` reads R code files (inverse is `dump()`)
 * `dget("y.R")` reads R code files (inverse is `dput()`)
 * `load()` reads saved workspaces
@@ -74,3 +74,11 @@
 * `dput(y, file = "y.R")` writes to  R code files (inverse is `dput()`)
 * `save()` writes workspaces
 * `serialize()` writes single R objects in binary format
+
+## Connection Interfaces
+* `file("foo.txt", "r")` opens a connection to a file (text file)
+* `gzfile()` opens a connection to a file compressed with gzip
+* `bzfile()` opens a connection to a file compressed with bzip2
+* `url()` opens a connection to a webpage
+
+##
