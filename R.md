@@ -40,3 +40,18 @@
 * `x <- list(1, "a", TRUE, 1 + 4i)` creates a list of different types
 * `cbind(x,y)` creates a matrix with x as column 1 and y as column 2
 * `rbind(x,y)` creates a matrix with x as row 1 and y as row 2
+* `x <- factor(c("yes","yes","no", "yes", "no"))` creates a factor with values "yes" and "no"
+* `table(x)` shows the frequency of the two factors
+* `unclass(x)` encodes class in numeric values (integer vector) (e.g. "yes" -> 2, "no" -> 1)
+* `x <- factor(c("yes","yes","no", "yes", "no"),levels("yes","no")` creates a factor with values "yes" (level1) and "no" (level2)
+* `is.na()` tests for NA and NaN objects
+* `is.nan()` tests for NaN values (x/0)
+* `x <- data.frame(foo = 1:4, bar = c(T,T,F,F))` creates a table with two columns foo and bar
+* `nrow(x)` shows the number of rows, `ncol(x) shows the number of columns
+* `names(x) <- c("foo", "bar", "norf")` labels columns in a vector
+* `x <- list(a = 1, b = 2, c = 3)` creates a list with column names
+* `dimnames(m) <- list(c("a","b"), c("c","d"))` creates a label for each column and row (row1 = a, row2 = b, column1 =c, column2 =d)
+
+
+
+### Reading Data
