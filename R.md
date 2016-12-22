@@ -52,6 +52,18 @@
 * `x <- list(a = 1, b = 2, c = 3)` creates a list with column names
 * `dimnames(m) <- list(c("a","b"), c("c","d"))` creates a label for each column and row (row1 = a, row2 = b, column1 =c, column2 =d)
 
-
+### Reading Data
+* `read.table()` and `read.csv()` reads from tables
+* `readLines()` reads from text files
+* `source()` reads R code files (inverse is `dump()`)
+* `dget()` reads R code files (inverse is `dput()`)
+* `load()` reads saved workspaces
+* `unserialize()` reads single R objects in binary format
 
 ### Reading Data
+* `write.table()` and `read.csv()` writes to tables
+* `writeLines()` writes to text files
+* `dump()` writes to R code files (inverse is `dump()`)
+* `dput()` writes to  R code files (inverse is `dput()`)
+* `save()` writes workspaces
+* `serialize()` writes single R objects in binary format
