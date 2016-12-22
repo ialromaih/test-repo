@@ -81,4 +81,11 @@
 * `bzfile()` opens a connection to a file compressed with bzip2
 * `url()` opens a connection to a webpage
 
-##
+## Validate Input
+* `complete.cases(x,y)` returns a vector of T and F (F if either x or y is NA)
+
+## Working with SWIRL
+* `library(swirl)`
+* `install_from_swirl("R Programming")`
+* `swirl()`
+
