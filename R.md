@@ -62,7 +62,7 @@
                             colClasses = classes)
       ```
 * `readLines()` reads from text files
-* `source()` reads R code files (inverse is `dump()`)
+* `source("data.R")` reads R code files (inverse is `dump()`)
 * `dget("y.R")` reads R code files (inverse is `dput()`)
 * `load()` reads saved workspaces
 * `unserialize()` reads single R objects in binary format
@@ -70,7 +70,7 @@
 ## Writing Data
 * `write.table()` and `read.csv()` writes to tables
 * `writeLines()` writes to text files
-* `dump()` writes to R code files (inverse is `dump()`)
+* `dump(c("x","y"), file = "data.R")` writes to R code files (inverse is `dump()`)
 * `dput(y, file = "y.R")` writes to  R code files (inverse is `dput()`)
 * `save()` writes workspaces
 * `serialize()` writes single R objects in binary format
