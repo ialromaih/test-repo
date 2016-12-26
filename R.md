@@ -89,3 +89,5 @@
 * `install_from_swirl("R Programming")`
 * `swirl()`
 
+## TO Read
+The Split-Apply-Combine Strategy for Data Analysis
