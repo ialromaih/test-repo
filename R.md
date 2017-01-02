@@ -93,3 +93,4 @@
 * [The Split-Apply-Combine Strategy for Data Analysis link](https://www.jstatsoft.org/article/view/v040i01)
 * [Markdown Cheatsheet link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [ggplot2 link](http://varianceexplained.org/r/teach_ggplot2_to_beginners/)
+* [base graph details link](http://www.ling.upenn.edu/~joseff/rstudy/week4.html)
